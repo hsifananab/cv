@@ -1,0 +1,252 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/39f4b021a4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/styles/shades-of-purple.min.css">
+    <script src="https://kit.fontawesome.com/39f4b021a4.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+    <title>Ian Iusov - FrontEnd Developer</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__inner-left">
+                    <img src="img/user.jpg" alt="user-photo" class="header__photo">
+                </div>
+                <div class="header__inner-right">
+                    <h1 class="header__title">Ian Iusov</h1>
+                    <h3 class="header__subtitle">FrontEnd Developer</h3>
+                </div>                 
+            </div>
+        </div>
+    </header>
+
+    <main class="page">
+        <div class="container">
+
+            <section class="section section-contacts">
+                <h2 class="setion__title dn">Contacts</h2>
+                <div class="contacts">
+                    <div class="contacts__item">
+                        <div class="contacts__item-name">email</div>
+                        <div class="contacts__item-value"><a href="mailto:yusov.yan@icloud.com" class="contacts__link">
+                            yusov.yan@icloud.com</a></div>
+                    </div>
+                    <div class="contacts__item">
+                        <div class="contacts__item-name">website</div>
+                        <div class="contacts__item-value"><a href="https://github.com/hsifananab" target="_blank" class="contacts__link">
+                            https://github.com/hsifananab</a></div>
+                    </div>
+                    <div class="contacts__item">
+                        <div class="contacts__item-name">phone</div>
+                        <div class="contacts__item-value"><a href="tel:+79118435936" class="contacts__link">
+                            +7 (911) 843-59-36</a></div>
+                    </div>
+                    <div class="contacts__item">
+                        <div class="contacts__item-name">telegram</div>
+                        <div class="contacts__item-value"><a href="https://t.me/hsifananab" target="_blank" class="contacts__link">
+                            @hsifananab</a></div>
+                    </div>
+                </div>
+                
+            </section>
+
+            <section class="section">
+                <div class="section__inner">
+                    <h2 class="section__title">about me</h2>
+
+                    <div class="section__item">
+                        <p>
+                            Former event project manager <br> with a desire to be a developer
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="section__inner">
+                    <h2 class="section__title">skills</h2>
+
+                    <div class="section__item">
+                        <div class="skills">
+                            <ul class="section__list">
+                                <li class="skills__item"><i class="fab fa-html5"></i> HTML</li>
+                                <li class="skills__item"><i class="fab fa-css3-alt"></i> CSS</li>
+                                <li class="skills__item"><i class="fab fa-js-square"></i> JavaScript</li>
+                                <li class="skills__item"><i class="fab fa-git-alt"></i> Git</li>
+                                <li class="skills__item"><i class="fab fa-github"></i> GitHub</li>
+                                <li class="skills__item"><i class="fab fa-figma"></i> Figma</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="section__inner">
+                    <h2 class="section__title">code example</h2>
+                    
+                    <div class="section__item">
+                        <div class="example">
+                            <div class="example__inner">
+                                <h4 class="example__title">
+                                    <a href="https://www.codewars.com/kata/514b92a657cdc65150000006/javascript" target="_blank" class="example__link">Multiples of 3 or 5
+                                    </a>
+                                </h4>
+                                <div class="example__description">
+                                    <p>
+                                        If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
+                                        Finish the solution so that it returns the sum of all the multiples of 3 or 5 below the number passed in. Additionally, if the number is negative, return 0 (for languages that do have them).
+                                        Note: If the number is a multiple of both 3 and 5, only count it once.
+                                    </p>
+                                </div>
+                                <div class="example__code">
+                                    <pre> 
+                                        <code>
+const solution = (number) => {
+    let sum = 0;
+    
+    for (let i = 1; i < number; i += 1) {
+        if (i % 3 == 0 || i % 5 == 0) {
+        sum += i;
+        }
+    }
+    return sum;
+}
+                                        </code>
+                                    </pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </section>
+
+            <section class="section">
+                <div class="section__inner">
+                    <h2 class="section__title">projects</h2>
+
+                    <div class="section__item">
+                        <div class="projects">
+                            <div class="project__item">
+                                <h4 class="project__name">
+                                    brain games
+                                </h4>
+                                <a href="https://github.com/hsifananab/frontend-project-lvl1" class="project__link button" target="_blank"><i class="fab fa-github"></i>Github link</a>
+
+                                <div class="project__description">
+                                    <p>
+                                        A set of five console games. Each game asks questions that need to be answered correctly. After three correct answers, the game is considered completed. Incorrect answers end the game and offer to go through it again.
+                                    </p>
+                                    <br>
+                                    <ul>
+                                        <li class="description__item">Calculator. <span class="description__item-text">Arithmetic expressions to be calculated.</span></li>
+                                        <li class="description__item">Progression. <span class="description__item-text">Search for missing numbers in a sequence of numbers.</span></li>
+                                        <li class="description__item">Determining an even number.</li>
+                                        <li class="description__item">Determining the greatest common divisor.</li>
+                                        <li class="description__item">Defining a prime number.</li>
+                                    </ul>
+                                    <script id="asciicast-ivJbZfjmp2l8HZGd8NGlKCd54" src="https://asciinema.org/a/ivJbZfjmp2l8HZGd8NGlKCd54.js" async></script>
+                                </div>
+                            </div>
+
+                            <div class="project__item">
+                                <h4 class="project__name">
+                                    Cognitive distortions
+                                </h4>
+                                <a href="https://github.com/hsifananab/layout-designer-project-lvl1" class="project__link button" target="_blank"><i class="fab fa-github"></i>Github link</a>
+                                <div class="project__description">
+                                    <p>Landing describing common cognitive distortions in programming
+                                    </p>
+                                </div>
+                                <div class="project__preview">
+                                    <figure class="project__image">
+                                        <a href="https://cognitive-biases-hsifananab.surge.sh" target="_blank" class="project__link">
+                                            <img src="img/preview.jpg" width="100%" alt="">
+                                            <div class="project__title">
+                                                open page
+                                            </div>
+                                        </a>
+                                    </figure>
+                                    
+                                </div>
+                                
+                            </div>
+
+
+
+
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="section__inner">
+                    <h2 class="section__title">courses</h2>
+
+                    <div class="section__item">
+                        <div class="courses">
+                            <ul class="section__list">
+                                <li class="courses__item"><a href="https://ru.code-basics.com/" target="_blank" class="courses__link">code basics</a></li>
+                                <li class="courses__item"><a href="https://htmlacademy.ru/" target="_blank" class="courses__link">html academy</a></li>
+                                <li class="courses__item"><a href="https://ru.hexlet.io/" target="_blank" class="courses__link">hexlet</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </section>
+
+            <section class="section">
+                <div class="section__inner">
+                    <h2 class="section__title">languages</h2>
+
+                    <div class="section__item">
+                        <div class="languages">
+                            <ul class="section__list">
+                                <li class="language__item">Russian - Native</li>
+                                <li class="language__item">English - B1</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <nav class="footer__inner">
+                <a class="footer__item" target="_blank" href="https://github.com/hsifananab">
+                    <i class="fab fa-github"></i>
+                </a>
+                
+                <p class="footer__item">
+                    2022
+                </p>
+                
+                <a class="footer__item" target="_blank" href="https://t.me/hsifananab">
+                    <i class="fa fa-solid fa-paper-plane"></i>
+                </a>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
