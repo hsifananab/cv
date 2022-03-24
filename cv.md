@@ -1,11 +1,11 @@
 # Ian Iusov
 
-### Junior Frontend Developer
+### Frontend Developer
 
 ___
 ### Contact Information
 phone: +7 (911) 843-59-36\
-email: <hsif-dev@gmail.com>\
+email: <yusov.yan@icloud.com>\
 [GitHub][1]\
 [Telegram][2]
 
@@ -56,8 +56,8 @@ ___
 ### Courses
 1. [Code Basics JavaScript][4] `completed`
 1. [HTML Academy][5] `in progress`
+1. [Codewars][6]
 
-![Codewars][6]
 
 ___
 ### Language
@@ -65,7 +65,7 @@ ___
 * **English** - B1 Intermediate
 
 
-[1]:https://github.com/hsif-dev
+[1]:https://github.com/hsifananab
 [2]:https://t.me/hsifananab
 [3]:https://www.codewars.com/kata/52449b062fb80683ec000024
 [4]:https://ru.code-basics.com/languages/javascript
