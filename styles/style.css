@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .button {
     align-items: center;
-    
+
     max-width: 480px;
     min-height: 32px;
     min-width: 125px;
@@ -57,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
     text-transform: uppercase;
     background-color: #a3bfd6;
-    
+
     line-height: 1;
 
     border-radius: 4px;
@@ -106,7 +106,7 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
-    
+
 }
 
 .header__title,
@@ -115,7 +115,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header__photo {
-    width: 250px;  
+    width: 250px;
 }
 
 .header__photo,
@@ -125,7 +125,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
-/* Section */ 
+/* Section */
 
 .section {
     padding-top: 30px;
@@ -144,13 +144,13 @@ h1, h2, h3, h4, h5, h6 {
 .section__title {
     width: 33%;
     text-transform: uppercase;
-}   
+}
 
 .section__item {
     width: 66%;
 }
 
-.section__title, 
+.section__title,
 .section__item {
     border-top: 3px solid #a3bfd6;
     margin: 0 -50px;
@@ -189,7 +189,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-right: 10px;
 
     transition: transform .15s;
-    
+
 }
 
 .skills__item:hover .fab {
@@ -224,7 +224,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .project__item:last-child {
-    border-bottom:  none;
+    border-bottom: none;
     padding-bottom: 0px;
 }
 
@@ -350,7 +350,7 @@ h1, h2, h3, h4, h5, h6 {
         display: flex;
         justify-content: space-around;
     }
-    
+
 }
 
 @media (max-width: 575px) {
