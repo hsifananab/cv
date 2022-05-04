@@ -1,1 +1,1 @@
-hsifananab-cv.surge.sh
+https://hsifananab.github.io/cv/
